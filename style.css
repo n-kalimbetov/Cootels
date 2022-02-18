@@ -1,0 +1,173 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 5504px;
+    background-color: #FFF;
+    font-family: 'Montserrat';
+}
+/*Navigation bar*/
+nav{
+    display:flex;
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.title{
+    position: absolute;
+    position: absolute;
+    width: 123px;
+    height: 39px;
+    left: 120px;
+    top: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #192252;    
+}
+#navigation{
+    display: flex;
+}
+#rooms{
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    left: 586px;
+    top: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+}
+#reservation{
+    position: absolute;
+    width: 92px;
+    height: 19px;
+    left: 671px;
+    top: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+}
+#contacs{
+    position: absolute;
+    width: 64px;
+    height: 19px;
+    left: 795px;
+    top: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+}
+.start_Button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    position: absolute;
+    width: 121px;
+    height: 47px;
+    left: 1199px;
+    top: 37px;
+    background: #0E1734;
+    border-radius: 4px;
+}
+#get_started{
+    position: static;
+    width: 89px;
+    height: 19px;
+    left: 16px;
+    top: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+/*Hero*/
+#h1-hero{
+    position: absolute;
+    width: 587px;
+    height: 144px;
+    left: 121px;
+    top: 335px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+#h3-hero{
+    position: absolute;
+    width: 485px;
+    height: 81px;
+    left: 121px;
+    top: 503px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+.button-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 156px;
+    height: 51px;
+    left: 121px;
+    top: 616px;
+    background: #0E1734;
+    border-radius: 4px;
+}
+#reservation-button{
+    position: static;
+    width: 92px;
+    height: 19px;
+    left: 32px;
+    top: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+#first-img{
+    position: absolute;
+    width: 180px;
+    height: 588px;
+    left: 732px;
+    top: 200px;
+    border-radius: 4px;
+}
+#second-img{
+    position: absolute;
+    width: 180px;
+    height: 588px;
+    left: 936px;
+    top: 281px;
+    border-radius: 4px;
+}
+#third-img{
+    position: absolute;
+    width: 180px;
+    height: 588px;
+    left: 1140px;
+    top: 200px;
+    border-radius: 4px;
+}
