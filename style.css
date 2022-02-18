@@ -171,3 +171,75 @@ nav{
     top: 200px;
     border-radius: 4px;
 }
+/*About us*/
+#tree-hous{
+    position: absolute;
+    width: 384px;
+    height: 576px;
+    left: 120px;
+    top: 1045px;
+    border-radius: 4px;
+}
+#h2-about-us{
+    position: absolute;
+    width: 690px;
+    height: 108px;
+    left: 630px;
+    top: 1150px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+#h3-about-us-1{
+    position: absolute;
+    width: 584px;
+    height: 81px;
+    left: 630px;
+    top: 1282px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+#h3-about-us-2{
+    position: absolute;
+    width: 584px;
+    height: 54px;
+    left: 630px;
+    top: 1379px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+.button-about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 151px;
+    height: 51px;
+    left: 630px;
+    top: 1465px;
+    background: #0E1734;
+    border-radius: 4px;
+}
+#learn-more-button{
+    position: static;
+    width: 87px;
+    height: 19px;
+    left: 32px;
+    top: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
