@@ -224,3 +224,54 @@ h3{
     color: #FFFFFF;
     white-space: pre;
 }
+/*Benefit*/
+#benefit{
+    position: absolute;
+    width: 1440px;
+    height: 960px;
+    left: 0px;
+    top: 1701px;
+    background: #FFFFFF;
+}
+#header-benefit-p1{
+    position: absolute;
+    width: 302px;
+    height: 54px;
+    left: 120px;
+    top: 193px;
+}
+#paragraph-benefit-p1{
+    position: absolute;
+    width: 584px;
+    height: 81px;
+    left: 120px;
+    top: 271px;
+}
+#drink{
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    left: 830px;
+    top: 80px;
+}
+#header-benefit-p2{
+    position: absolute;
+    width: 384px;
+    height: 54px;
+    left: 630px;
+    top: 609px;
+}
+#paragraph-benefit-p2{
+    position: absolute;
+    width: 584px;
+    height: 81px;
+    left: 630px;
+    top: 687px;
+}
+#food{
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    left: 120px;
+    top: 496px;
+}
