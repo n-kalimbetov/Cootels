@@ -2,72 +2,61 @@ body{
     position: relative;
     width: 1440px;
     height: 5504px;
-    background-color: #FFF;
-    font-family: 'Montserrat';
+    background-color: #fff;
 }
 /*Navigation bar*/
 nav{
-    display:flex;
-    position: absolute;
     width: 1440px;
     height: 120px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
 }
-.title{
-    position: absolute;
-    position: absolute;
+h1{
     width: 123px;
     height: 39px;
-    left: 120px;
-    top: 46px;
+    margin-left: 120px;
+    margin-top: 46px;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    color: #192252;    
+    color: #192252;
 }
 #navigation{
     display: flex;
-}
-#rooms{
+    margin-top: 56px;
+    color: #192252;
     position: absolute;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+#rooms-navigation{
     width: 53px;
     height: 19px;
-    left: 586px;
-    top: 56px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #192252;
+    margin-left: 586px;
 }
-#reservation{
-    position: absolute;
+#reservation-navigation{
     width: 92px;
     height: 19px;
-    left: 671px;
-    top: 56px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #192252;
+    margin-left: 32px;
 }
-#contacs{
-    position: absolute;
+#contacs-navigation{
     width: 64px;
     height: 19px;
-    left: 795px;
-    top: 56px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #192252;
+    margin-left: 32px;
 }
-.start_Button{
+button{
+    background: #0E1734;
+    border-radius: 4px;
+}
+#get-started-button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,50 +67,55 @@ nav{
     height: 47px;
     left: 1199px;
     top: 37px;
-    background: #0E1734;
-    border-radius: 4px;
 }
-#get_started{
+#get-started-text{
     position: static;
     width: 89px;
     height: 19px;
     left: 16px;
     top: 14px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
+    white-space: pre;
 }
 /*Hero*/
-#h1-hero{
+#hero{
+    position: absolute;
+    width: 1440px;
+    height: 845px;
+    left: 0px;
+    top: 120px;
+    background: #FFFFFF;
+}
+h2{
     position: absolute;
     width: 587px;
     height: 144px;
-    left: 121px;
-    top: 335px;
+    margin-left: 121px;
+    margin-top: 215px;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: 150%;
+    line-height: 72px;
     letter-spacing: -0.01em;
     color: #192252;
 }
-#h3-hero{
-    position: absolute;
-    width: 485px;
-    height: 81px;
-    left: 121px;
-    top: 503px;
-    font-family: Inter;
+h4{
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     color: #848FAC;
 }
-.button-hero{
+#paragraph-hero{
+    position: absolute;
+    width: 485px;
+    height: 81px;
+    margin-left: 121px;
+    margin-top: 383px;
+}
+#reservation-button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -130,94 +124,86 @@ nav{
     position: absolute;
     width: 156px;
     height: 51px;
-    left: 121px;
-    top: 616px;
-    background: #0E1734;
-    border-radius: 4px;
+    margin-left: 121px;
+    margin-top: 496px;
 }
-#reservation-button{
+#reservation-text{
     position: static;
     width: 92px;
     height: 19px;
-    left: 32px;
-    top: 16px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
+}
+img{
+    border-radius: 4px;
 }
 #first-img{
     position: absolute;
     width: 180px;
     height: 588px;
-    left: 732px;
-    top: 200px;
-    border-radius: 4px;
+    margin-left: 732px;
+    margin-top: 80px;
 }
 #second-img{
     position: absolute;
     width: 180px;
     height: 588px;
-    left: 936px;
-    top: 281px;
-    border-radius: 4px;
+    margin-left: 936px;
+    margin-top: 161px;
 }
 #third-img{
     position: absolute;
     width: 180px;
     height: 588px;
-    left: 1140px;
-    top: 200px;
-    border-radius: 4px;
+    margin-left: 1140px;
+    margin-top: 80px;
 }
 /*About us*/
+#about-us{
+    position: absolute;
+    width: 1440px;
+    height: 736px;
+    left: 0px;
+    top: 965px;
+    background: #FFFFFF;
+}
 #tree-hous{
     position: absolute;
     width: 384px;
     height: 576px;
-    left: 120px;
-    top: 1045px;
-    border-radius: 4px;
+    margin-left: 120px;
+    margin-top: 80px;
 }
-#h2-about-us{
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+#header-about-us{
     position: absolute;
     width: 690px;
     height: 108px;
     left: 630px;
-    top: 1150px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 150%;
-    letter-spacing: -0.01em;
-    color: #192252;
+    top: 185px;
 }
-#h3-about-us-1{
+#p1-paragraph-about-us{
     position: absolute;
     width: 584px;
     height: 81px;
     left: 630px;
-    top: 1282px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    color: #848FAC;
+    top: 317px;
 }
-#h3-about-us-2{
+#p2-paragraph-about-us{
     position: absolute;
     width: 584px;
     height: 54px;
     left: 630px;
-    top: 1379px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    color: #848FAC;
+    top: 414px;
 }
-.button-about-us{
+#learn-more-button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -227,19 +213,14 @@ nav{
     width: 151px;
     height: 51px;
     left: 630px;
-    top: 1465px;
-    background: #0E1734;
-    border-radius: 4px;
+    top: 505px;
 }
-#learn-more-button{
+#learn-more-text{
     position: static;
     width: 87px;
     height: 19px;
     left: 32px;
     top: 16px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
+    white-space: pre;
 }
