@@ -275,3 +275,47 @@ h3{
     left: 120px;
     top: 496px;
 }
+/*Reservation*/
+#reservation{
+    position: absolute;
+    width: 1440px;
+    height: 1176px;
+    left: 0px;
+    top: 2661px;
+    background: #FFFFFF;
+}
+#header-reservation{
+    position: absolute;
+    width: 446px;
+    height: 54px;
+    margin-left: 497px;
+    margin-top: 80px;
+    text-align: center;
+}
+#paragraph-reservation{
+    position: absolute;
+    width: 588px;
+    height: 54px;
+    margin-left: 426px;
+    margin-top: 158px;
+    text-align: center;
+}
+#explore-more-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 165px;
+    height: 51px;
+    margin-left: 638px;
+    margin-top: 244px;
+}
+#explore-more-text{
+    position: static;
+    width: 101px;
+    height: 19px;
+    color: #FFFFFF;
+    white-space: pre;
+}
